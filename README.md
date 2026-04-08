@@ -25,26 +25,3 @@ Na saída, você encontrará opções para abrir o app em um
 
 Você pode começar a desenvolver editando os arquivos dentro do diretório **app**. Este projeto usa [roteamento baseado em arquivos](https://docs.expo.dev/router/introduction).
 
-## Obtenha um projeto novo
-
-Quando estiver pronto, execute:
-
-```bash
-npm run reset-project
-```
-
-Este comando moverá o código inicial para o diretório **app-example** e criará um diretório **app** em branco onde você pode começar a desenvolver.
-
-## Saiba mais
-
-Para aprender mais sobre o desenvolvimento do seu projeto com Expo, consulte os seguintes recursos:
-
-- [Documentação do Expo](https://docs.expo.dev/): Aprenda fundamentos ou mergulhe em tópicos avançados com nossos [guias](https://docs.expo.dev/guides).
-- [Tutorial Aprenda Expo](https://docs.expo.dev/tutorial/introduction/): Siga um tutorial passo a passo onde você criará um projeto que roda no Android, iOS e na web.
-
-## Junte-se à comunidade
-
-Junte-se à nossa comunidade de desenvolvedores criando apps universais.
-
-- [Expo no GitHub](https://github.com/expo/expo): Veja nossa plataforma de código aberto e contribua.
-- [Comunidade Discord](https://chat.expo.dev): Converse com usuários do Expo e faça perguntas.
