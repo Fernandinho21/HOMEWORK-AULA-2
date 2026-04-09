@@ -1,27 +1,59 @@
-# Bem-vindo ao seu app Expo 👋
+# 📱 UserCard Screen — Homework Aula 2
 
-Este é um projeto [Expo](https://expo.dev) criado com [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Projeto desenvolvido para a disciplina de **Programação para Dispositivos Móveis** da UNIESP.
 
-## Comece
+**Docente:** Nicoly Figueredo Pessoa de Almeida  
+**Assunto:** Introdução ao React Native
 
-1. Instale as dependências
+---
 
-   ```bash
-   npm install
-   ```
+## 📋 Sobre o projeto
 
-2. Inicie o app
+Aplicativo mobile construído com **React Native + Expo** que exibe uma tela de cards de usuários com interação de status online/offline.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-Na saída, você encontrará opções para abrir o app em um
+## 🗂️ Estrutura do projeto
 
-- [build de desenvolvimento](https://docs.expo.dev/develop/development-builds/introduction/)
-- [emulador Android](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [simulador iOS](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), uma sandbox limitada para experimentar o desenvolvimento de apps com Expo
+```
+app/
+  index.tsx         → Tela principal com lista de usuários
+components/
+  UserCard.tsx      → Componente reutilizável de card de usuário
+```
 
-Você pode começar a desenvolver editando os arquivos dentro do diretório **app**. Este projeto usa [roteamento baseado em arquivos](https://docs.expo.dev/router/introduction).
+---
 
+## ⚙️ Funcionalidades
+
+- Listagem de usuários com nome e profissão
+- Componente `UserCard` reutilizável com props `nome` e `profissao`
+- Controle de status **Offline → Online** com `useState`
+- Botão para alternar o status de cada usuário individualmente
+- Estilização moderna com tema escuro
+
+---
+
+## 🚀 Como rodar
+
+### Pré-requisitos
+
+- Node.js >= 20
+- Expo Go instalado no celular
+
+### Instalação
+
+```bash
+npm install
+npx expo start
+```
+
+Escaneie o QR code com o app **Expo Go** no celular.
+
+---
+
+## 🛠️ Tecnologias
+
+- React Native
+- Expo
+- TypeScript
